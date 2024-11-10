@@ -27,7 +27,15 @@
                     <li><a href="contacto.html">CONTACTO</a></li>
                     <li><a href="#">CURSOS</a></li>
                     <li><a href="#">DESTACADOS</a></li>
-                    <li><a href="#">CATEGORIAS</a></li> 
+                    <li><a href="#">CATEGORIAS</a>
+                        <ul class="dropdown">
+                            <li><a href="#">Cartas</a></li>
+                            <li><a href="#">Salon</a></li>
+                            <li><a href="#">Infantil</a></li>
+                          </ul>
+                    </li> 
+                    <li><a href="#">RESEÑAS</a></li>
+
                 </ul>
             </nav>
             <div class="iniciar-sesion-navegacion">
@@ -46,33 +54,67 @@
 
 
     <main>
-        <div>
-            <h2> Quien soy? 🤨 </h2>
-            <p> Mi nombre es Martin Cabrera, tengo 21 años, trabajo de tester, y estoy estudiando ingenieria en sistemas en la UTN </p>
-            <h2> De donde soy? </h2>
-            <p> Vivo en el barrio de almagro! </p>
-            <h2> Mis Hobbies? </h2>
-            <ol>
-                <li> Me gusta escuchar musica </li>
-                <li> Jugar jueguitos en steam :D </li>
-                <li> Practico Magia </li>
-            </ol>
-
-            <h2> Por qué arranque el curso? </h2>
-            <p> Porque quiero profundizar mis conocimientos y seguir aprendiendo! </p>
+        <div class="seccion-productos">
+            <div class="contenedor-productos">
+                <div class="card">
+                    <img src="src/content/productos/producto1.jpeg" alt="Cubilete">
+                    <div class="card-content">
+                        <h3>Cubilete de metal</h3>
+                        <p>$$</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="src/content/productos/producto2.jpeg" alt="Varita">
+                    <div class="card-content">
+                        <h3>Varita</h3>
+                        <p>$$</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="src/content/productos/producto3.jpeg" alt="cartas">
+                    <div class="card-content">
+                        <h3> Cartas </h3>
+                        <p>$$</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="src/content/productos/producto4.jpeg" alt="Moneda">
+                    <div class="card-content">
+                        <h3>Moneda</h3>
+                        <p>$$</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="src/content/productos/producto5.jpeg" alt="Pañuelo">
+                    <div class="card-content">
+                        <h3>Pañuelo</h3>
+                        <p>$$</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="src/content/productos/producto6.jpeg" alt="Aros chinos">
+                    <div class="card-content">
+                        <h3>Aros chinos</h3>
+                        <p>$$</p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div>
-
-        </div>
-        <div>
-            <h2> VIDEOS </h2>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/vru2HOv3gCA?si=yBxBdjimvSUUgRXm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/Qiduda68uTw?si=lIkYrrcHAssLVwMX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/Qiduda68uTw?si=lIkYrrcHAssLVwMX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </div>
+        <section class="contenedor-destacados">
+            <h1>DESTACADOS</h1>
+        </section>
     </main>
 
    
-    <footer></footer>
+    <footer>
+        <div>
+            <ul class="navegacion-items">
+                <li><a href="index.html">INICIO</a></li>
+                <li><a href="contacto.html">CONTACTO</a></li>
+                <li><a href="reseñas.html">RESEÑAS</a></li>
+            </ul>
+        </div>
+        <p>&copy; 2023 Mi Sitio Web. Todos los derechos reservados.</p>
+    </footer>
 </body>
 </html>
