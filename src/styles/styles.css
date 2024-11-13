@@ -187,11 +187,16 @@ main{
 }
 
 .seccion-productos{
-    
-    background-color:#d0e1e4
+    padding-top: 20px;
+    margin-top: 30px;
+    background-color:#d0e1e4;
+    text-align: center;
+
 }
 
 .contenedor-productos{
+    padding-top: 30px;
+    padding-bottom: 30px;
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
@@ -204,23 +209,61 @@ main{
     flex-direction: column;
     background-color: #fff;
     height: auto;
-    padding: 2px;
+    padding: 0px;
     border-radius: 7px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
     margin: 3px;
     width: 300px; /* Ajusta el ancho según tus necesidades */
     align-items: center;
-  }
-  
-  .card img {
+}
+
+.card img {
+    margin-top: 10px;
+    margin-bottom: 10px;
     width: 80%;
     height: auto;
-    border-radius: 10px;
-  }
-  
-  .card-content {
+    border-radius: 3px;
+}
+
+.card-content-top {
     text-align: center;
-  }
+    background-color: var(--color-primario);
+    width: 100%;
+    border-radius: 7px 7px 0 0
+}
+
+.card-content-bottom {
+    text-align: center;
+    background-color: var(--color-primario);
+    width: 100%;
+    border-radius:  0 0 7px 7px
+}
+
+.card-content-top h3{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.card-content.title {
+   /* background-color: ; /* Cambia el color de fondo del título */
+    padding: 5px;
+    border-radius: 5px 5px 0 0;
+}
+
+.add-to-cart {
+    background-color: var(--color-fondo); /* Color del botón */
+    color: white;
+    padding: 4px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 3px;
+    margin-bottom: 8px;
+}
+
+.add-to-cart:hover {
+    background-color: #0056b3; /* Color del botón al pasar el cursor */
+}
 
   .contenedor-destacados{
     margin-top: 10px;
@@ -229,4 +272,11 @@ main{
     gap: 10px;
     justify-content: space-evenly;
     background-color: var(--color-secundario);
+}
+
+.contenedor-centrado{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }

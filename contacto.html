@@ -7,6 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/styles/styles.css">
+    <link rel="stylesheet" href="src/styles/stylesContacto.css">
     <link rel="icon" href="src/content/miniIcono.jpg" type="image/jpg">
     <title>Proyecto</title>
 
@@ -54,14 +55,23 @@
 
 
     <main>
-        <div>
-            
-        </div>
-        <div>
-
-        </div>
-        <div>
-            
+        <div class="contact-section">
+            <h2>Contacto</h2>
+            <form class="contact-form" method="post" action="mailto:marticabrera@frba.utn.edu.ar">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="subject">Asunto:</label>
+                <input type="text" id="subject" name="subject" required>
+                
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                
+                <button type="submit">Enviar Mensaje</button>
+            </form>
         </div>
     </main>
 
