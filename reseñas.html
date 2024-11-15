@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -7,10 +8,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/styles/styles.css">
+    <link rel="stylesheet" href="src/styles/styleGrid.css">
     <link rel="icon" href="src/content/miniIcono.jpg" type="image/jpg">
     <title>Proyecto</title>
 
 </head>
+
 <body>
     <header>
         <div class="header-info">
@@ -21,47 +24,60 @@
                 </div>
                 <img src="/src/content/logo.png" alt="LOGO">
             </div>
-            <nav class="navegacion-barra">
-                <ul class="navegacion-items">
-                    <li><a href="index.html">INICIO</a></li>
-                    <li><a href="contacto.html">CONTACTO</a></li>
-                    <li><a href="#">CURSOS</a></li>
-                    <li><a href="#">DESTACADOS</a></li>
-                    <li><a href="#">CATEGORIAS</a>
-                        <ul class="dropdown">
-                            <li><a href="#">Cartas</a></li>
-                            <li><a href="#">Salon</a></li>
-                            <li><a href="#">Infantil</a></li>
-                          </ul>
-                    </li> 
-                    <li><a href="#">RESEÑAS</a></li>
-
-                </ul>
-            </nav>
-            <div class="iniciar-sesion-navegacion">
-                <a href="#">Iniciar sesion</a>
+            <input type="checkbox" id="check">
+            <label class="hmb-button" id="check-hmb" aria-label="Abrir menú" for="check">
+                ☰
+            </label>
+            <div class="hmb-menu">
+                <nav class="navegacion-barra">
+                    <ul class="navegacion-items">
+                        <li><a href="index.html">INICIO</a></li>
+                        <li><a href="contacto.html">CONTACTO</a></li>
+                        <li><a href="#">CURSOS</a></li>
+                        <li><a href="#">DESTACADOS</a></li>
+                        <li><a href="#">CATEGORIAS</a>
+                            <ul class="dropdown">
+                                <li><a href="#">Cartas</a></li>
+                                <li><a href="#">Salon</a></li>
+                                <li><a href="#">Infantil</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="reseñas.html">PROFESORES</a></li>
+                    </ul>
+                </nav>
+                <div class="iniciar-sesion-navegacion">
+                    <a href="#">Iniciar sesion</a>
+                </div>
             </div>
         </div>
         <div class="header-busqueda">
             <div class="barra-busqueda">
                 <input type="text" placeholder="Buscar..." />
                 <button>
-                  🔍
+                    🔍
                 </button>
-              </div>
+            </div>
         </div>
     </header>
 
-
     <main>
-        <div>
-            
-        </div>
-        <div>
-
-        </div>
-        <div>
-        
+        <div class="contenedorGrid">
+            <div class="fila-izq">
+                <img src="/src/content/prof/pareras.jpeg" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab tempora dolore adipisci impedit ea, ipsa quo sed temporibus quam. Quasi ratione totam quibusdam porro recusandae vitae ut, alias aliquam exercitationem?</p>
+            </div>
+            <div class="fila-der">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat laboriosam illum consequatur animi nobis quaerat in facilis illo! Iure consectetur voluptates provident nemo veritatis culpa fuga magni suscipit eaque fugit!</p>
+                <img src="/src/content/prof/ammar.jpeg" alt="">
+            </div>
+            <div class="fila-izq">
+                <img src="/src/content/prof/rene.jpg" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, nulla beatae? Odit explicabo autem voluptate deserunt rerum nemo neque! Obcaecati similique, sed labore possimus facere beatae corrupti voluptates temporibus maiores!</p>
+            </div>
+            <div class="fila-der">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto, blanditiis neque alias eum tempore dolores. Cum nesciunt rem voluptate laborum? Nemo, reprehenderit provident. Sapiente velit sed temporibus? Odio, maiores fugiat.</p>
+                <img src="/src/content/prof/tamariz.jpeg" alt="">
+            </div>
         </div>
     </main>
 
@@ -71,7 +87,7 @@
             <ul class="navegacion-items">
                 <li><a href="index.html">INICIO</a></li>
                 <li><a href="contacto.html">CONTACTO</a></li>
-                <li><a href="reseñas.html">RESEÑAS</a></li>
+                <li><a href="reseñas.html">PROFESORES</a></li>
             </ul>
         </div>
         <p>&copy; 2023 Mi Sitio Web. Todos los derechos reservados.</p>
